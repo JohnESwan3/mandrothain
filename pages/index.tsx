@@ -3,6 +3,7 @@ import Head from "next/head";
 import MainBanner from "../components/Home/MainBanner";
 import SocialCards from "../components/SocialCards";
 import Content from "../components/Home/Content";
+import TwitchStream from "../components/TwitchStream";
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
       <MainBanner />
       <SocialCards />
       <Content />
+      <TwitchStream />
     </div>
   );
 };

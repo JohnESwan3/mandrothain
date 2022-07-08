@@ -59,9 +59,11 @@ const Content = () => {
                 Mt Dew Zero
               </span>
             </p>
+            {/*Twitch API*/}
             <p>
               Playing: <span className="text-violet-600">None</span>
             </p>
+            {/*Sanity*/}
             <p>
               Next Stream: <span className="text-violet-600">12/12/12</span>
             </p>
