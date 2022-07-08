@@ -4,8 +4,8 @@ import { FaTwitch } from "react-icons/fa";
 const TwitchStream = () => {
   return (
     // Need Twitch API
-    <section className="max-w-7xl mx-auto py-8">
-      <div className="mb-2 flex flex-row justify-between max-w-5xl mx-auto items-center object-center">
+    <section className="max-w-7xl mx-auto py-8 rounded-div">
+      <div className="mb-2 flex flex-col md:flex-row px-4 xl:px-0 justify-between md:max-w-2xl xl:max-w-5xl mx-auto items-center object-center">
         <div className="flex flex-row ">
           <h1 className="text-primary text-xl font-semibold">
             Mandrothain's Livestream
@@ -19,7 +19,7 @@ const TwitchStream = () => {
           </a>
         </div>
       </div>
-      <div className="w-[426px] h-[240px] md:w-[640px] md:h-[360px] lg:w-[845px] lg:h-[475px] xl:w-[1280px] xl:h-[720px] bg-black mx-auto rounded-2xl"></div>
+      <div className="w-[400px] h-[240px] md:w-[600px] md:h-[360px] lg:w-[800px] lg:h-[420px] xl:w-[1200px] xl:h-[680px] bg-black mx-auto rounded-2xl"></div>
     </section>
   );
 };

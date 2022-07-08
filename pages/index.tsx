@@ -4,6 +4,7 @@ import MainBanner from "../components/Home/MainBanner";
 import SocialCards from "../components/SocialCards";
 import Content from "../components/Home/Content";
 import TwitchStream from "../components/TwitchStream";
+import YTFeatured from "../components/YTFeatured";
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <SocialCards />
       <Content />
       <TwitchStream />
+      <YTFeatured />
     </div>
   );
 };
