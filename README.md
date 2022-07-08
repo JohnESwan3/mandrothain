@@ -1,23 +1,83 @@
-# Next.js + Tailwind CSS Example
+# Mandrothain
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+![Mandrothain - Streamer Website](./public/banner.webp)
 
-## Deploy your own
+## Built With
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+* Next.js
+    * Server Side Rendering
+    * Incremental Static Regeneration
+    * Next Components (Link, Image, etc)
+* Tailwind CSS
+    * Built In & Custom classes
+    * Toggleable dark/light theme
+* Redux
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Working On
 
-## How to use
+* Axios
+    * Twitch API
+    * YouTube API
+    * Twitter API
+* Firebase
+    * User Login
+    * Comments
+    * Forums
+* Sanity CMS
+    * Update schedule
+    * Updates to channels
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Distant Future
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+* Stripe
+    * Payments
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+# About This Website
+
+I am working on building a following on Twitch, YouTube and Twitter, and I thought that building this website would be a
+great way to have a hub for my followers to visit to catch up on my content.
+
+Right now I am implementing the Twitch, YouTube and Twitter APIs to show the following.
+
+#### TWITCH
+
+* Live feed
+* Follow count
+* Chat
+
+#### Youtube
+
+* All videos and relevant information
+    * Likes (and dislikes if possible)
+    * View count
+* Highlight latest video
+* Subscriber count
+
+#### Twitter
+
+* Follower count
+* Most recent tweets
+
+#### Sanity CMS
+
+* Update schedules (if I want to have a schedule in the future)
+* Give updates on streams and videos.
+
+#### Stripe
+
+* Payments as an alternative to Superchats or Twitch Subscriptions etc.
+    * This will be something I worry about in the future if I reach a point where I can make money doing this.
+        * This website is primarily to have a hub and not a payment gateway, but down the road could be a good option so
+          it is in the back of my mind. This section is mostly a reminder to me.
+
+![Mandrothain - Logo](./public/logo.png)
+
+## The Design
+
+Because this is a website for video game content, and RGB lighting is popular with PC gamers and streamers, I wanted to
+give the main components a glow that is around the same color as my logo (which is Tailwind's Emerald-500). I also
+wanted to experiment with pnuemorphic design, and allow the user to toggle between a light and dark mode.
+
+One difficulty with pneumorphic design is readability and SEO. By its nature, this design style will take a hit to SEO,
+since elements are all the same color and only seperated by shadows that appear to glow, but I have tried to soften the
+blow by adding a slight border around each component. 

@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*Theming*/
+.rounded-div {
+  @apply rounded-2xl shadow-lg shadow-emerald-900 bg-primary px-2 max-w-7xl w-full mx-auto border border-secondary;
+}
+
+.nav {
+  @apply rounded-none xl:rounded-b-2xl shadow-lg shadow-emerald-900 bg-primary px-2 max-w-7xl w-full mx-auto flex justify-between xl:rounded-b-xl items-center border border-secondary;
+}
+
+.nav-item {
+  @apply cursor-pointer text-primary border-b-2 border-primary hover:border-accent transition-all duration-100 ease-in;
+}
+
+.footer {
+  @apply rounded-none xl:rounded-t-2xl shadow-lg shadow-emerald-800 bg-primary px-2 max-w-7xl w-full mx-auto py-4 text-primary border border-secondary;
+}
+
+.dark {
+  --color-bg-primary: #0f172a;
+  --color-bg-secondary: #1e293b;
+  --color-text-primary: #dbdbdb;
+  --color-text-secondary: #e2e8f0;
+  --color-text-accent: #059669;
+  --color-bg-input: #475569;
+  --color-bg-button: #059669;
+}
+
+.light {
+  --color-bg-primary: #e2e8f0;
+  --color-bg-secondary: #cbd5e1;
+  --color-text-primary: #2d3748;
+  --color-text-secondary: #4a5568;
+  --color-text-accent: #059669;
+  --color-bg-input: #94a3b8;
+  --color-bg-button: #059669;
+}
