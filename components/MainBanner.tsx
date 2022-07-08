@@ -12,6 +12,7 @@ const MainBanner = () => {
         priority
         placeholder="blur"
         blurDataURL="/banner.webp"
+        alt="Mandrothain Banner"
       />
     </div>
   );
