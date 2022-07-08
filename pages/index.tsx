@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import MainBanner from "../components/MainBanner";
+import SocialCards from "../components/SocialCards";
 
 const Home: NextPage = () => {
   return (
@@ -10,6 +11,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainBanner />
+      <SocialCards />
     </div>
   );
 };

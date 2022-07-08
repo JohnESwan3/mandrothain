@@ -8,7 +8,14 @@ const Navbar = () => {
     <nav className="nav sticky top-0 z-10">
       {/*Logo*/}
       <div className="cursor-pointer">
-        <Image src="/logo.png" height="50" width="50" />
+        <Image
+          src="/logo.png"
+          height="50"
+          width="50"
+          priority
+          placeholder="blur"
+          blurDataURL="/logo.png"
+        />
       </div>
       {/*Nav*/}
       <div>

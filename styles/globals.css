@@ -19,6 +19,38 @@
   @apply rounded-none xl:rounded-t-2xl shadow-lg shadow-emerald-800 bg-primary px-2 max-w-7xl w-full mx-auto py-4 text-primary border border-secondary;
 }
 
+.card {
+  @apply xl:rounded-2xl bg-secondary p-4 my-6 w-full border border-primary hover:scale-[97.5%] xl:hover:scale-105 transition-all ease-in duration-150;
+}
+
+.social-card {
+  @apply xl:rounded-2xl bg-secondary p-4 my-2 w-full border border-primary hover:scale-[97.5%] xl:hover:scale-105 transition-all ease-in duration-150 flex flex-row justify-between items-center cursor-pointer;
+}
+
+.social-card h1 {
+  @apply text-lg md:text-xl lg:text-2xl hover:scale-105 transition-all ease-in duration-75 cursor-pointer font-semibold;
+}
+
+.social-card ol li {
+  @apply text-primary text-sm md:text-lg transition-all ease-in duration-75;
+}
+
+.social-card ol li span {
+  @apply font-bold text-lg;
+}
+
+.twitch-icon {
+  @apply text-violet-500 hover:scale-110 hover:text-violet-700 transition-all duration-150 ease-in;
+}
+
+.youtube-icon {
+  @apply text-red-600 hover:scale-110 hover:text-red-500 transition-all duration-150 ease-in;
+}
+
+.twitter-icon {
+  @apply text-blue-500 hover:scale-110 hover:text-blue-600 transition-all duration-150 ease-in;
+}
+
 .dark {
   --color-bg-primary: #0f172a;
   --color-bg-secondary: #1e293b;
@@ -37,4 +69,15 @@
   --color-text-accent: #059669;
   --color-bg-input: #94a3b8;
   --color-bg-button: #059669;
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #333;
 }

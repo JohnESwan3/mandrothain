@@ -52,16 +52,16 @@ const Footer = () => {
               </div>
               <div className="flex p-4 justify-end space-x-4">
                 <a href="https://www.twitch.tv/mandrothain" target="_blank">
-                  <FaTwitch className="text-violet-500 h-6 w-6 hover:scale-110 hover:text-violet-700 transition-all duration-150 ease-in" />
+                  <FaTwitch className="twitch-icon h-6 w-6" />
                 </a>
                 <a
                   href="https://www.youtube.com/channel/UCEe9S764Dt4VC_T3lUUv1Cg"
                   target="_blank"
                 >
-                  <FaYoutube className="text-red-600 h-6 w-6 hover:scale-110 hover:text-red-500 transition-all duration-150 ease-in" />
+                  <FaYoutube className="youtube-icon w-6 h-6" />
                 </a>
                 <a href="https://twitter.com/Mandrothain" target="_blank">
-                  <FaTwitter className="text-blue-500 h-6 w-6 hover:scale-110 hover:text-blue-600 transition-all duration-150 ease-in" />
+                  <FaTwitter className="twitter-icon w-6 h-6" />
                 </a>
               </div>
             </div>
