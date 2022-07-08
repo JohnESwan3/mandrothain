@@ -4,7 +4,11 @@
 
 /*Theming*/
 .rounded-div {
-  @apply rounded-2xl shadow-lg shadow-teal-600 dark:shadow-emerald-900 bg-primary px-2 max-w-7xl w-full mx-auto border border-secondary;
+  @apply rounded-none md:rounded-2xl shadow-lg shadow-teal-600 dark:shadow-emerald-900 bg-primary px-2 max-w-7xl w-full mx-auto border border-secondary hover:shadow-md hover:shadow-teal-700 dark:hover:shadow-emerald-900 transition-all duration-100 ease-in;
+}
+
+.rounded-div-secondary {
+  @apply rounded-2xl shadow-lg shadow-teal-600 dark:shadow-emerald-900 bg-secondary px-2 max-w-7xl w-full mx-auto border border-secondary;
 }
 
 .nav {
