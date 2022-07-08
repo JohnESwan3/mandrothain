@@ -4,11 +4,11 @@
 
 /*Theming*/
 .rounded-div {
-  @apply rounded-2xl shadow-lg shadow-emerald-900 bg-primary px-2 max-w-7xl w-full mx-auto border border-secondary;
+  @apply rounded-2xl shadow-lg shadow-teal-600 dark:shadow-emerald-900 bg-primary px-2 max-w-7xl w-full mx-auto border border-secondary;
 }
 
 .nav {
-  @apply rounded-none xl:rounded-b-2xl shadow-lg shadow-emerald-900 bg-primary px-2 max-w-7xl w-full mx-auto flex justify-between xl:rounded-b-xl items-center border border-secondary;
+  @apply rounded-none xl:rounded-b-2xl shadow-lg shadow-teal-600 dark:shadow-emerald-900 bg-primary px-2 max-w-7xl w-full mx-auto flex justify-between xl:rounded-b-xl items-center border border-secondary;
 }
 
 .nav-item {
@@ -16,7 +16,7 @@
 }
 
 .footer {
-  @apply rounded-none xl:rounded-t-2xl shadow-lg shadow-emerald-800 bg-primary px-2 max-w-7xl w-full mx-auto py-4 text-primary border border-secondary;
+  @apply rounded-none xl:rounded-t-2xl shadow-lg shadow-teal-600 dark:shadow-emerald-800 bg-primary px-2 max-w-7xl w-full mx-auto py-4 text-primary border border-secondary;
 }
 
 .card {

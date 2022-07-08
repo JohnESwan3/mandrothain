@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import MainBanner from "../components/MainBanner";
+import MainBanner from "../components/Home/MainBanner";
 import SocialCards from "../components/SocialCards";
+import Content from "../components/Home/Content";
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
       </Head>
       <MainBanner />
       <SocialCards />
+      <Content />
     </div>
   );
 };

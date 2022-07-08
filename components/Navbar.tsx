@@ -41,6 +41,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
+            <Link href="/twitch">
+              <a aria-label="Twitch Streams">Guides</a>
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link href="/support">
               <a aria-label="Support Me">Support</a>
             </Link>

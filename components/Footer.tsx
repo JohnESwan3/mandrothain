@@ -11,17 +11,17 @@ const Footer = () => {
           <div>
             <h2 className="font-bold">Info</h2>
             <ul>
-              <li className="text-sm py-2 hover:text-emerald-600 hover:scale-105 transition-all duration-75 ease-in">
+              <li className="text-sm py-2 hover:text-teal-600 dark:hover:text-emerald-600 hover:scale-105 transition-all duration-75 ease-in">
                 <Link href="/contact">
                   <a aria-label="Contact Me">Contact</a>
                 </Link>
               </li>
-              <li className="text-sm py-2 hover:text-emerald-600 hover:scale-105 transition-all duration-75 ease-in">
+              <li className="text-sm py-2 hover:text-teal-600 dark:hover:text-emerald-600 hover:scale-105 transition-all duration-75 ease-in">
                 <Link href="/schedule">
                   <a aria-label="Contact Me">Schedule</a>
                 </Link>
               </li>
-              <li className="text-sm py-2 hover:text-emerald-600 hover:scale-105 transition-all duration-75 ease-in">
+              <li className="text-sm py-2 hover:text-teal-600 dark:hover:text-emerald-600 hover:scale-105 transition-all duration-75 ease-in">
                 <Link href="/about">
                   <a aria-label="Contact Me">About Me</a>
                 </Link>
@@ -31,14 +31,19 @@ const Footer = () => {
           <div>
             <h2 className="font-bold">Content</h2>
             <ul>
-              <li className="text-sm py-2 hover:text-emerald-600 hover:scale-105 transition-all duration-75 ease-in">
+              <li className="text-sm py-2 hover:text-teal-600 dark:hover:text-emerald-600 hover:scale-105 transition-all duration-75 ease-in">
                 <Link href="/youtube">
                   <a aria-label="My Youtube Videos">Videos</a>
                 </Link>
               </li>
-              <li className="text-sm py-2 hover:text-emerald-600 hover:scale-105 transition-all duration-75 ease-in">
+              <li className="text-sm py-2 hover:text-teal-600 dark:hover:text-emerald-600 hover:scale-105 transition-all duration-75 ease-in">
                 <Link href="/twitch">
                   <a aria-label="My Twitch Vods">Stream VODs</a>
+                </Link>
+              </li>
+              <li className="text-sm py-2 hover:text-teal-600 dark:hover:text-emerald-600 hover:scale-105 transition-all duration-75 ease-in">
+                <Link href="/guides">
+                  <a aria-label="My Twitch Vods">Guides</a>
                 </Link>
               </li>
             </ul>
