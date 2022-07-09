@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider>
+    <ThemeProvider initialTheme="class">
       <div className="bg-primary min-h-screen">
         <Navbar />
         <Component {...pageProps} />

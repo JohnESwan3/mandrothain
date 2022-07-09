@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Banner from "./Banner";
 import Image from "next/image";
 
 const Content = () => {

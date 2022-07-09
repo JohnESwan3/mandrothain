@@ -4,8 +4,8 @@ import { FaYoutube } from "react-icons/fa";
 const YTFeatured = () => {
   return (
     <section className="section-template">
-      <div className="rounded-div glow-yt-press">
-        <div className="mb-2 flex flex-col md:flex-row px-4 xl:px-0 justify-between md:max-w-2xl xl:max-w-5xl mx-auto items-center object-center">
+      <div className="rounded-div py-6 glow-yt-press">
+        <div className="mb-2 flex flex-col md:flex-row px-4 py-2 xl:px-0 justify-between md:max-w-2xl xl:max-w-5xl mx-auto items-center object-center">
           <div className="flex flex-row ">
             <h1 className="text-primary text-xl font-semibold">
               Recent Videos
