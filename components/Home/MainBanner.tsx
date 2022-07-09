@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const MainBanner = () => {
   return (
-    <div className="section-template">
+    <div className="max-w-7xl mx-auto py-4">
       <Image
         src="/banner.webp"
         width="2560px"
