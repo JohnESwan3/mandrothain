@@ -13,7 +13,7 @@ Link {
 }
 
 .rounded-div-secondary {
-  @apply rounded-none md:rounded-2xl bg-primary px-2 max-w-7xl w-full mx-auto border border-secondary hover:shadow-md transition-all duration-100 ease-in;
+  @apply rounded-none md:rounded-2xl bg-secondary px-2 max-w-7xl w-full mx-auto border border-secondary hover:shadow-md transition-all duration-100 ease-in;
 }
 
 .section-template {
@@ -68,8 +68,8 @@ Link {
 }
 
 /*Cards*/
-.card {
-  @apply xl:rounded-2xl bg-secondary p-4 my-6 w-full border border-primary hover:scale-[97.5%] xl:hover:scale-105 transition-all ease-in duration-150;
+.article-card {
+  @apply rounded-2xl bg-secondary w-full mx-auto border border-secondary transition-all duration-200 ease-in overflow-hidden cursor-pointer shadow-md shadow-teal-600 dark:shadow-emerald-900 hover:shadow-2xl hover:shadow-teal-700 dark:hover:shadow-emerald-900;
 }
 
 .social-card {
@@ -141,9 +141,9 @@ Link {
   --color-bg-secondary: #cbd5e1;
   --color-text-primary: #2d3748;
   --color-text-secondary: #4a5568;
-  --color-text-accent: #059669;
+  --color-text-accent: #0f766e;
   --color-bg-input: #94a3b8;
-  --color-bg-button: #059669;
+  --color-bg-button: #0f766e;
 }
 
 /* Hide Scrollbar */

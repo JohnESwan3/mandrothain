@@ -1,7 +1,7 @@
 import React from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Header from "../components/Guides/Header";
+import Content from "../components/Guides/Content";
 
 const Guides: NextPage = () => {
   return (
@@ -10,7 +10,7 @@ const Guides: NextPage = () => {
         <title>Mandrothain | Guides</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      <Content />
     </div>
   );
 };
