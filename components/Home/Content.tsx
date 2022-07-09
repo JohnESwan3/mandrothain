@@ -3,9 +3,9 @@ import { FaTwitch, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Content = () => {
   return (
-    <div className="max-w-7xl mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-20 lg:gap-44 my-8">
-        <section className="rounded-div col-span-1 md:col-span-2 p-4">
+    <div className="section-template">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-20 lg:gap-44">
+        <section className="rounded-div glow-main-press col-span-1 md:col-span-2 p-4">
           <h1 className="text-lg md:text-xl lg:text-2xl text-primary font-semibold p-2">
             Hey Guys
           </h1>
@@ -24,7 +24,7 @@ const Content = () => {
             sense.
           </p>
         </section>
-        <aside className="rounded-div col-span-1 p-4">
+        <aside className="rounded-div glow-main-press col-span-1 p-4">
           <div className="p-2">
             <h1 className="text-2xl md:text-3xl font-semibold text-primary">
               Mandrothain
@@ -34,7 +34,7 @@ const Content = () => {
             <ul className="flex flex-row space-x-4">
               <li>
                 <a href="https://www.twitch.tv/mandrothain" target="_blank">
-                  <FaTwitch className="twitch-icon h-10 w-10" />
+                  <FaTwitch className="twitch-icon icon-med" />
                 </a>
               </li>
               <li>
@@ -42,12 +42,12 @@ const Content = () => {
                   href="https://www.youtube.com/channel/UCEe9S764Dt4VC_T3lUUv1Cg"
                   target="_blank"
                 >
-                  <FaYoutube className="youtube-icon h-10 w-10" />
+                  <FaYoutube className="youtube-icon icon-med" />
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com/Mandrothain" target="_blank">
-                  <FaTwitter className="twitter-icon h-10 w-10" />
+                  <FaTwitter className="twitter-icon icon-med" />
                 </a>
               </li>
             </ul>

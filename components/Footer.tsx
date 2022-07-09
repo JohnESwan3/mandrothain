@@ -5,7 +5,7 @@ import { FaTwitch, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer glow-main">
       <div className="grid md:grid-cols-2">
         <div className="flex justify-evenly w-full md:max-w-[300px]">
           <div>

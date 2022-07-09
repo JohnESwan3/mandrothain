@@ -2,37 +2,82 @@
 @tailwind components;
 @tailwind utilities;
 
-/*Theming*/
+/*Div Templates*/
+
+Link {
+  @apply cursor-pointer;
+}
+
 .rounded-div {
-  @apply rounded-none md:rounded-2xl shadow-lg shadow-teal-600 dark:shadow-emerald-900 bg-primary px-2 max-w-7xl w-full mx-auto border border-secondary hover:shadow-md hover:shadow-teal-700 dark:hover:shadow-emerald-900 transition-all duration-100 ease-in;
+  @apply rounded-none md:rounded-2xl bg-primary px-2 max-w-7xl w-full mx-auto border border-secondary transition-all duration-100 ease-in;
 }
 
 .rounded-div-secondary {
-  @apply rounded-2xl shadow-lg shadow-teal-600 dark:shadow-emerald-900 bg-secondary px-2 max-w-7xl w-full mx-auto border border-secondary;
+  @apply rounded-none md:rounded-2xl bg-primary px-2 max-w-7xl w-full mx-auto border border-secondary hover:shadow-md transition-all duration-100 ease-in;
 }
 
+.section-template {
+  @apply max-w-7xl mx-auto my-8 py-8;
+}
+
+/*Shadows*/
+.glow-main {
+  @apply shadow-lg shadow-teal-600 dark:shadow-emerald-900;
+}
+
+.glow-main-press {
+  @apply shadow-lg shadow-teal-600 dark:shadow-emerald-900 hover:shadow-md hover:shadow-teal-700 dark:hover:shadow-emerald-900;
+}
+
+.glow-twitch-lift {
+  @apply shadow-md shadow-violet-900 hover:shadow-violet-600 hover:shadow-2xl hover:scale-[97.5%] xl:hover:scale-105;
+}
+
+.glow-twitch-press {
+  @apply shadow-lg shadow-violet-900 hover:shadow-violet-600 hover:shadow-md;
+}
+
+.glow-yt-lift {
+  @apply shadow-md shadow-red-900 hover:shadow-red-600 hover:shadow-2xl hover:scale-[97.5%] xl:hover:scale-105;
+}
+
+.glow-yt-press {
+  @apply shadow-lg shadow-red-900 hover:shadow-red-600 hover:shadow-md;
+}
+
+.glow-twitter-lift {
+  @apply shadow-md shadow-blue-900 hover:shadow-blue-600 hover:shadow-2xl hover:scale-[97.5%] xl:hover:scale-105;
+}
+
+.glow-twitter-press {
+  @apply shadow-lg shadow-blue-900 hover:shadow-blue-600 hover:shadow-md;
+}
+
+/*Nav*/
 .nav {
-  @apply rounded-none xl:rounded-b-2xl shadow-lg shadow-teal-600 dark:shadow-emerald-900 bg-primary px-2 max-w-7xl w-full mx-auto flex justify-between xl:rounded-b-xl items-center border border-secondary;
+  @apply rounded-none xl:rounded-b-2xl bg-primary px-2 max-w-7xl w-full mx-auto flex justify-between xl:rounded-b-xl items-center border border-secondary;
 }
 
 .nav-item {
   @apply cursor-pointer text-primary border-b-2 border-primary hover:border-accent transition-all duration-100 ease-in;
 }
 
+/*Footer*/
 .footer {
-  @apply rounded-none xl:rounded-t-2xl shadow-lg shadow-teal-600 dark:shadow-emerald-800 bg-primary px-2 max-w-7xl w-full mx-auto py-4 text-primary border border-secondary;
+  @apply rounded-none xl:rounded-t-2xl bg-primary px-2 max-w-7xl w-full mx-auto py-4 text-primary border border-secondary;
 }
 
+/*Cards*/
 .card {
   @apply xl:rounded-2xl bg-secondary p-4 my-6 w-full border border-primary hover:scale-[97.5%] xl:hover:scale-105 transition-all ease-in duration-150;
 }
 
 .social-card {
-  @apply xl:rounded-2xl bg-secondary p-4 my-2 w-full border border-primary hover:scale-[97.5%] xl:hover:scale-105 transition-all ease-in duration-150 flex flex-row justify-between items-center cursor-pointer;
+  @apply xl:rounded-2xl bg-primary dark:bg-secondary p-4 my-2 w-full border border-primary transition-all ease-in duration-150 flex flex-row justify-between items-center text-primary;
 }
 
 .social-card h1 {
-  @apply text-lg md:text-xl lg:text-2xl hover:scale-105 transition-all ease-in duration-75 cursor-pointer font-semibold;
+  @apply text-lg md:text-xl lg:text-2xl hover:scale-[102.5%] transition-all ease-in duration-75 cursor-pointer font-semibold;
 }
 
 .social-card ol li {
@@ -43,6 +88,7 @@
   @apply font-bold text-lg;
 }
 
+/*Social Icons*/
 .twitch-icon {
   @apply text-violet-500 hover:scale-110 hover:text-violet-700 transition-all duration-150 ease-in;
 }
@@ -53,6 +99,31 @@
 
 .twitter-icon {
   @apply text-blue-500 hover:scale-110 hover:text-blue-600 transition-all duration-150 ease-in;
+}
+
+.icon-med {
+  @apply h-10 w-10;
+}
+
+.icon-large {
+  @apply w-[30px] h-[30px] md:w-[40px] md:h-[40px] lg:w-[50px] lg:h-[50px];
+}
+
+/*Buttons*/
+.btn-primary {
+  @apply bg-primary text-sm md:text-base xl:text-lg font-semibold px-2 py-1 rounded-2xl text-primary shadow-md shadow-teal-600 dark:shadow-emerald-900 hover:shadow hover:shadow-teal-700 dark:hover:shadow-emerald-900 hover:scale-[99%] transition-all duration-100 ease-in;
+}
+
+.btn-twitch {
+  @apply font-semibold md:text-base xl:text-lg px-2 py-1 rounded-2xl text-violet-600 shadow-md bg-primary shadow-violet-900 hover:shadow-violet-600 hover:shadow hover:scale-[99%] transition-all duration-100 ease-in;
+}
+
+.btn-yt {
+  @apply font-semibold md:text-base xl:text-lg px-2 py-1 rounded-2xl text-red-600 shadow-md bg-primary shadow-red-900 hover:shadow-red-600 hover:shadow hover:scale-[99%] transition-all duration-100 ease-in;
+}
+
+.btn-twitter {
+  @apply font-semibold md:text-base xl:text-lg px-2 py-1 rounded-2xl text-blue-600 shadow-md bg-primary shadow-blue-900 hover:shadow-blue-600 hover:shadow hover:scale-[99%] transition-all duration-100 ease-in;
 }
 
 .dark {

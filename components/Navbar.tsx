@@ -5,7 +5,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="nav sticky top-0 z-10">
+    <nav className="nav glow-main sticky top-0 z-10">
       {/*Logo*/}
       <div>
         <Link href="/" className="cursor-pointer">
@@ -41,7 +41,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/twitch">
+            <Link href="/guides">
               <a aria-label="Twitch Streams">Guides</a>
             </Link>
           </li>

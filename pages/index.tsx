@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import MainBanner from "../components/Home/MainBanner";
-import SocialCards from "../components/SocialCards";
+import SocialCards from "../components/Home/SocialCards";
 import Content from "../components/Home/Content";
-import TwitchStream from "../components/TwitchStream";
-import YTFeatured from "../components/YTFeatured";
+import TwitchStream from "../components/Home/TwitchStream";
+import YTFeatured from "../components/Home/YTFeatured";
 
 const Home: NextPage = () => {
   return (
